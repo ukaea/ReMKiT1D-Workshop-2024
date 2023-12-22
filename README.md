@@ -44,9 +44,13 @@ docker run -it remkit1d-workshop
 
 ![](images/container_vscode_extensions.png "Extensions menu in the running remkit1d-workshop container")
 
-7. The Extensions menu will display multiple collapsible sections, including `LOCAL-INSTALLED` and `CONTAINER REMKIT1D-WORKSHOP`. Make sure that the Python and Jupyter extensions are installed in the container. They should be present as in the below image 
+7. The Extensions menu will display multiple collapsible sections, including `LOCAL-INSTALLED` and `CONTAINER REMKIT1D-WORKSHOP` (might have a slightly different name depending on your system). 
+
+Make sure that the Python and Jupyter extensions are installed in the container. They should be present as in the below image (you might need to move the collapsible sections around, and the container section will most likely be thin)
 
 ![](images/container_vscode_extensions_required.png "Extensions installed in the container")
+
+If you cannot see the extensions try searching the Extensions Marketplace (the search bar at the top of the Extensions menu). You can find the Python and Jupyter extensions there. To see which extensions are installed again simply clear this search bar.
 
 
 ### Testing the environment 
@@ -55,12 +59,12 @@ Once the environment has been set up the following can be done to confirm that t
 
 1. Check that all tests have passed. The outputs of these will be in `/home/ReMKiT1D_build_test.out`,`/home/ReMKiT1D_debug_test.out`,`/home/RMK_support_test.out`.
 
-2. Navigate to `/home/ReMKiT1D-Python/examples` using the VS Code Explorer at the top of the left sidebar and open `ReMKiT1D_analysis.ipynb` (any notebook would work, this one is just the simplest)
+2. Navigate to `/home/ReMKiT1D-Workshop-2024/hands_on_sessions` using the VS Code Explorer at the top of the left sidebar and open `day_1_1.ipynb` 
 
 3. In the Jupyter menu of the notebook select `Run All`
 
-![](images/RMK_analysis.png "Jupyter meny in the analysis notebook")
+![](images/RMK_day_1_1.png "Jupyter menu in the day_1_1 notebook")
 
 4. The first time this is done you will be prompted to select a kernel. Select the recommended kernel corresponding to the Python installation in the container (should be 3.8.10)
 
-5. Check that all cells have been executed (have a green tick mark and the corresponding output)
+5. Check that all cells have been executed successfully (have a green checkmark) up to and including the cell below `Create config`. Cells below this require running ReMKiT1D to obtain output and will fail (marked with a red X and displaying error messages).
