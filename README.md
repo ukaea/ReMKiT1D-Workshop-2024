@@ -1,5 +1,7 @@
 # ReMKiT1D Workshop 2024
 
+Contact: stefan.mijin@ukaea.uk
+
 This repository will be used for the ReMKiT1D Workshop to be held at UKAEA on 30-31st Jan 2024. It will be updated with the material for the workshop.
 
 ## Environment setup instructions 
@@ -15,7 +17,11 @@ A Dockerfile is supplied with this repository containing a prepared environment 
 
 [Docker](https://www.docker.com/get-started/) is a prerequisite for this workshop.
 
-Attendees who do not have experience with working within Docker containers are advised to use [VS Code](https://code.visualstudio.com/) as the IDE for this workshop. The remainder of these instructions will assume we are working in VS Code.
+**NOTE**: Docker Desktop requires a commercial license under certain conditions. If you are unable to install Docker Desktop, you can still install [Docker Engine](https://docs.docker.com/engine/) on Mac or Windows. 
+
+**NOTE**: If you are using a UKAEA Windows laptop, please contact the organizers for internal instructions.
+
+Attendees who do not have experience with working within Docker containers are advised to use [VS Code](https://code.visualstudio.com/) as the IDE for this workshop. The remainder of these instructions will assume we are working in VS Code. If you are on Windows and prefer using WSL, note that it is also possible to use VS Code by connecting to a [remote folder in WSL](https://code.visualstudio.com/docs/remote/wsl).
 
 After cloning this repository, and opening that folder in VS Code, the user should be prompted to install workspace recommended extensions. These are the Docker and Dev Containers extensions and should be installed before proceeding. 
 
@@ -50,7 +56,7 @@ Make sure that the Python and Jupyter extensions are installed in the container.
 
 ![](images/container_vscode_extensions_required.png "Extensions installed in the container")
 
-If you cannot see the extensions try searching the Extensions Marketplace (the search bar at the top of the Extensions menu). You can find the Python and Jupyter extensions there. To see which extensions are installed again simply clear this search bar.
+If you cannot see the extensions try searching the Extensions Marketplace (the search bar at the top of the Extensions menu). You can find the Python and Jupyter extensions there. To see which extensions are installed again simply clear this search bar. If you are missing any of the required extensions, you will be prompted to install them once you attempt running the supplied Jupyter notebooks.
 
 
 ### Testing the environment 
