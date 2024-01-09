@@ -1,3 +1,4 @@
 *.h5
 config.json
 *.out
+*.pyc
