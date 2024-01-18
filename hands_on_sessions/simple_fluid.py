@@ -45,7 +45,7 @@ def generatorSimpleFluid(**kwargs) -> RKWrapper:
     epsilon0 = 8.854188e-12  # vacuum permittivity
 
     rk = RKWrapper()
-    rk.setHDF5Path("./RMKOutput/"+kwargs.get("hdf5OutputFolder","day_2_5_1")+"/")
+    rk.setHDF5Path("./RMKOutput/"+kwargs.get("hdf5OutputFolder","day_2_5")+"/")
 
     numProcsX = kwargs.get("mpiProcsX",8)  # Number of processes in x direction
     numProcsH = 1  # Number of processes in harmonic
