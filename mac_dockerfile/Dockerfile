@@ -198,5 +198,4 @@ RUN pip install ipywidgets ipykernel jupyter_bokeh pytest
 
 RUN pytest ./ReMKiT1D-Python/RMK_support/ > /home/RMK_support_test.out
 
-RUN git clone https://github.com/SMijin/ReMKiT1D-Workshop-2024
-
+RUN git clone https://github.com/ukaea/ReMKiT1D-Workshop-2024
