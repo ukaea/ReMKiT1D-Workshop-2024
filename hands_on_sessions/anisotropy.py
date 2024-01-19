@@ -39,10 +39,8 @@ def X(alpha):
     return alpha - 1
 
 def K_LMN(alpha,LMN:str,smallX=False):
-    match LMN:
-        case "200":
-            return 2/3 - 2/15*X(alpha) if smallX else X(alpha)**-1*(-1 + (1 + X(alpha))*phi(X(alpha)))
-        case "002":
-            return 2/3 - 2/5*X(alpha) if smallX else X(alpha)**-1*2*(1 - phi(X(alpha)))
-        case other:
-            raise ValueError("Unknown K_LMN case")
+    if LMN == "200":
+        return 2/3 - 2/15*X(alpha) if smallX else X(alpha)**-1*(-1 + (1 + X(alpha))*phi(X(alpha)))
+    if LMN == "002":
+        return 2/3 - 2/5*X(alpha) if smallX else X(alpha)**-1*2*(1 - phi(X(alpha)))
+    raise ValueError("Unknown K_LMN case")
