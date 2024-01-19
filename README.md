@@ -21,7 +21,7 @@ A Dockerfile is supplied with this repository containing a prepared environment 
 
 **NOTE**: If you are using a UKAEA Windows laptop, please contact the organizers for internal instructions.
 
-**NOTE**: If you are using a macOS computer with an Apple silicon chip (M1,M2,M3 etc.), use the alternative Dockerfile found within the `./mac_docker_image/` folder when performing step 2. All other steps can be followed as usual.
+**NOTE**: If you are using a macOS computer with an Apple silicon chip (M1,M2,M3 etc.), use the alternative Dockerfile found within the `./mac_dockerfile/` folder when performing step 2. All other steps can be followed as usual.
 
 Attendees who do not have experience with working within Docker containers are advised to use [VS Code](https://code.visualstudio.com/) as the IDE for this workshop. The remainder of these instructions will assume we are working in VS Code. If you are on Windows and prefer using WSL, note that it is also possible to use VS Code by connecting to a [remote folder in WSL](https://code.visualstudio.com/docs/remote/wsl).
 
