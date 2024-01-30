@@ -35,7 +35,7 @@ To build and run the Docker image used in this workshop:
 docker build --tag remkit1d-workshop:latest . 
 ```
 
-This will start the build process for the Docker image, which can take a while. If you've not set up a user group for docker on your machine you might need to run docker commands with `sudo`.
+This will start the build process for the Docker image, which can take a while. If you've not set up a user group for docker on your machine you might need to run docker commands with `sudo`. However, we suggest that you enable Docker [for non-root users](https://docs.docker.com/engine/install/linux-postinstall/#manage-docker-as-a-non-root-user). 
 
 3. Once the image is built run the following in order to start the Docker container and to make it visible to the Docker extension
 
