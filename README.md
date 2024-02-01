@@ -2,7 +2,7 @@
 
 Contact: stefan.mijin@ukaea.uk
 
-This repository will be used for the ReMKiT1D Workshop to be held at UKAEA on 30-31st Jan 2024. It will be updated with the material for the workshop.
+This is the repository used for the ReMKiT1D Workshop held at UKAEA on 30-31st Jan 2024. It contains material for learning the basics of ReMKiT1D, and is associated with version 1.1.0 of the framework. 
 
 ## Environment setup instructions 
 
