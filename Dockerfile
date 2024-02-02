@@ -17,14 +17,14 @@ RUN apt update \
 WORKDIR /home
 
 # Install the Python library
-RUN git clone -b dev-v1.1.0 https://github.com/ukaea/ReMKiT1D-Python.git
+RUN git clone -b v1.1.0 https://github.com/ukaea/ReMKiT1D-Python.git
 
 RUN pip install ./ReMKiT1D-Python/
 
 WORKDIR /home 
 
 # Install ReMKiT1D
-RUN git clone -b dev-v1.1.0 https://github.com/ukaea/ReMKiT1D.git
+RUN git clone -b v1.1.0 https://github.com/ukaea/ReMKiT1D.git
 
 WORKDIR /home/ReMKiT1D 
 

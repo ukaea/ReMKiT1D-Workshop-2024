@@ -2,7 +2,7 @@
 
 Contact: stefan.mijin@ukaea.uk
 
-This is the repository used for the ReMKiT1D Workshop held at UKAEA on 30-31st Jan 2024. It contains material for learning the basics of ReMKiT1D, and is associated with version 1.1.0 of the framework. 
+This is the repository used for the ReMKiT1D Workshop held at UKAEA on 30-31st Jan 2024. It contains material for learning the basics of ReMKiT1D, and is associated with version 1.1.0 of the framework. **NOTE**: If you've participated in the workshop note that the framework has released v1.1.0, which was used during the workshop, so you will likely have to rebuild the Docker images.
 
 ## Environment setup instructions 
 
